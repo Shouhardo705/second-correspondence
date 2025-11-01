@@ -155,4 +155,22 @@ body {
 .curtain-text.hidden {
     opacity: 0;
     pointer-events: none;
+
+}
+
+.letter::-webkit-scrollbar {
+    width: 4px;
+}
+
+.letter::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.letter::-webkit-scrollbar-thumb {
+    background: rgba(139, 69, 19, 0.15);
+    border-radius: 2px;
+}
+
+.letter::-webkit-scrollbar-thumb:hover {
+    background: rgba(139, 69, 19, 0.3);
 }
